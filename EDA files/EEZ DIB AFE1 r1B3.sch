@@ -10174,7 +10174,7 @@ Source: LITE-ON ELECTRONICS, LTV816.pdf</description>
 <text x="1.27" y="1.27" size="1.27" layer="27" ratio="10">&gt;VALUE</text>
 </package>
 <package name="2118732-2">
-<description>50.8 x 38.1 x 6 x 5.08 mm</description>
+<description>Two-piece shield 50.8 x 38.1 x 6 x 5.08 mm, requires 2118731-2 cover</description>
 <rectangle x1="0" y1="0" x2="3.7" y2="0.8" layer="51"/>
 <rectangle x1="5.9" y1="0" x2="9.7" y2="0.8" layer="51"/>
 <rectangle x1="47.9" y1="0" x2="51.6" y2="0.8" layer="51"/>
@@ -10403,15 +10403,15 @@ Source: LITE-ON ELECTRONICS, LTV816.pdf</description>
 <pin name="-5V_ISO" x="0" y="0" visible="off" length="short" direction="sup" rot="R90"/>
 </symbol>
 <symbol name="PWR+-GND_L">
-<text x="1.27" y="3.175" size="0.8128" layer="94" rot="R90">V+</text>
-<text x="1.27" y="-4.445" size="0.8128" layer="94" rot="R90">V-</text>
+<text x="-0.635" y="2.54" size="1.27" layer="95" rot="R90">V+</text>
+<text x="-0.635" y="-2.54" size="1.27" layer="95" rot="MR270">V-</text>
 <pin name="V+" x="0" y="7.62" visible="pad" length="middle" direction="pwr" rot="R270"/>
 <pin name="V-" x="0" y="-7.62" visible="pad" length="middle" direction="pwr" rot="R90"/>
 <pin name="GND" x="2.54" y="-7.62" visible="pad" length="middle" direction="pwr" rot="R90"/>
 <text x="-3.81" y="-0.635" size="1.778" layer="95">&gt;NAME</text>
-<text x="3.81" y="-5.08" size="0.8128" layer="94" rot="R90">Gnd</text>
+<text x="1.905" y="-2.54" size="1.27" layer="95" rot="MR270">G</text>
 <pin name="VL" x="2.54" y="7.62" visible="pad" length="middle" direction="pwr" rot="R270"/>
-<text x="3.81" y="3.175" size="0.8128" layer="94" rot="R90">VL</text>
+<text x="1.905" y="2.54" size="1.27" layer="95" rot="R90">VL</text>
 </symbol>
 <symbol name="+3V3_ISO">
 <wire x1="1.27" y1="0.635" x2="0" y2="2.54" width="0.254" layer="94"/>
@@ -11532,8 +11532,8 @@ Source: LITE-ON ELECTRONICS, LTV816.pdf</description>
 <pin name="OUT" x="7.62" y="0" visible="pad" length="short" direction="out" rot="R180"/>
 </symbol>
 <symbol name="PWR+-">
-<text x="1.27" y="3.175" size="0.8128" layer="94" rot="R90">V+</text>
-<text x="1.27" y="-4.445" size="0.8128" layer="94" rot="R90">V-</text>
+<text x="1.905" y="2.54" size="1.27" layer="95" rot="R90">V+</text>
+<text x="1.905" y="-4.445" size="1.27" layer="95" rot="R90">V-</text>
 <pin name="V+" x="0" y="7.62" visible="pad" length="middle" direction="pwr" rot="R270"/>
 <pin name="V-" x="0" y="-7.62" visible="pad" length="middle" direction="pwr" rot="R90"/>
 <text x="2.54" y="5.08" size="1.778" layer="95">&gt;NAME</text>
@@ -12488,7 +12488,7 @@ low-leakage double diode</description>
 <part name="SUPPLY24" library="supply2" deviceset="GND" device=""/>
 <part name="IC10" library="EEZ_DIB" deviceset="LTC6655" device="BHMS8" value="N.C."/>
 <part name="-2V5_ISO3" library="EEZ_DIB" deviceset="-2V5_ISO" device=""/>
-<part name="S1" library="EEZ_DIB" deviceset="211873" device="2-2"/>
+<part name="S1" library="EEZ_DIB" deviceset="211873" device="2-2" value="N.C."/>
 <part name="SUPPLY25" library="supply2" deviceset="GND" device=""/>
 <part name="L1" library="EEZ_Lib1" deviceset="FERRITE_BEAD" device="0603" value="MLZ1608N100LT000"/>
 <part name="L2" library="EEZ_Lib1" deviceset="FERRITE_BEAD" device="0603" value="MLZ1608N100LT000"/>
@@ -12726,7 +12726,7 @@ Current mode: ±48 mA (gain x1)</text>
 <attribute name="VALUE" x="127" y="167.64" size="1.778" layer="96"/>
 </instance>
 <instance part="IC2" gate="P" x="50.8" y="154.94" smashed="yes">
-<attribute name="NAME" x="46.99" y="154.305" size="1.778" layer="95"/>
+<attribute name="NAME" x="48.895" y="154.305" size="1.778" layer="95"/>
 </instance>
 <instance part="IC3" gate="A" x="213.36" y="55.88" smashed="yes">
 <attribute name="NAME" x="203.2" y="71.755" size="1.6764" layer="95"/>
@@ -16141,6 +16141,7 @@ Voltage reference, +/-2.5V LDOs</text>
 <text x="127" y="177.8" size="1.778" layer="97" rot="MR180">Vref buffer (optional)</text>
 <text x="162.56" y="116.84" size="1.778" layer="97" rot="MR180">Isolated +/-2.5 V LDOs</text>
 <rectangle x1="125.73" y1="120.65" x2="255.27" y2="173.99" layer="97"/>
+<rectangle x1="10.16" y1="149.86" x2="30.48" y2="172.72" layer="97"/>
 </plain>
 <instances>
 <instance part="FRAME6" gate="G$1" x="0" y="0" smashed="yes"/>
