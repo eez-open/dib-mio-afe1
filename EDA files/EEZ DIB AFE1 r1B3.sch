@@ -12243,7 +12243,7 @@ low-leakage double diode</description>
 <part name="Q2" library="EEZ_Lib1" deviceset="BSP129" device="SOT-223" value="CPC3902ZTR"/>
 <part name="Q1" library="EEZ_Lib1" deviceset="BSP129" device="SOT-223" value="CPC3902ZTR"/>
 <part name="R1" library="rcl" deviceset="R-EU_" device="R0805" value="47R"/>
-<part name="IC1" library="EEZ_TI" deviceset="OPA4197" device="PW" value="OPA4202IPWR"/>
+<part name="IC1" library="EEZ_TI" deviceset="OPA4197" device="PW" value="MCP6004T-I/ST"/>
 <part name="SUPPLY82" library="supply2" deviceset="GND" device=""/>
 <part name="JP3" library="EEZ_Lib1" deviceset="JUMPER-2PIN" device="-2MM" value="DS1025-01-1*2P8BV1-B"/>
 <part name="IC6" library="EEZ_TI" deviceset="OPA376A" device="IDBVR" value="TLV9001IDBVR"/>
@@ -12327,7 +12327,7 @@ low-leakage double diode</description>
 <part name="Q4" library="EEZ_Lib1" deviceset="BSP129" device="SOT-223" value="CPC3902ZTR"/>
 <part name="Q3" library="EEZ_Lib1" deviceset="BSP129" device="SOT-223" value="CPC3902ZTR"/>
 <part name="R18" library="rcl" deviceset="R-EU_" device="R0805" value="47R"/>
-<part name="IC4" library="EEZ_TI" deviceset="OPA4197" device="PW" value="OPA4202IPWR"/>
+<part name="IC4" library="EEZ_TI" deviceset="OPA4197" device="PW" value="MCP6004T-I/ST"/>
 <part name="F2" library="EEZ_Lib1" deviceset="FUSE_RESETTABLE2" device="" value="SN005-60"/>
 <part name="IC5" library="EEZ_DIB" deviceset="DG212B" device="DY-T1-E3" value="DG212BDY-T1-E3"/>
 <part name="D5" library="EEZ_DIB" deviceset="DIODE" device="_SMA-NARROW" value="SA2M-E3/61T"/>
@@ -17367,8 +17367,8 @@ Voltage reference, +/-2.5V LDOs</text>
 <errors>
 <approved hash="101,1,30.48,33.02,X2-17,1,,,,"/>
 <approved hash="101,1,58.42,33.02,X2-18,1,,,,"/>
-<approved hash="104,1,68.58,162.56,IC1P,V+,+5V_ISO,,,"/>
-<approved hash="104,1,68.58,147.32,IC1P,V-,-5V_ISO,,,"/>
+<approved hash="104,1,68.58,162.56,IC1P,V+,+2V5_ISO,,,"/>
+<approved hash="104,1,68.58,147.32,IC1P,V-,-2V5_ISO,,,"/>
 <approved hash="104,3,58.42,53.34,IC6P,V+,+2V5_ISO,,,"/>
 <approved hash="104,3,58.42,38.1,IC6P,V-,-2V5_ISO,,,"/>
 <approved hash="104,1,50.8,162.56,IC2P,V+,+15V_ISO,,,"/>
@@ -17377,8 +17377,8 @@ Voltage reference, +/-2.5V LDOs</text>
 <approved hash="104,3,22.86,53.34,IC7P,V+,+15V_ISO,,,"/>
 <approved hash="104,3,22.86,38.1,IC7P,V-,-15V_ISO,,,"/>
 <approved hash="104,3,25.4,53.34,IC7P,VL,+5V_ISO,,,"/>
-<approved hash="104,3,33.02,53.34,IC4P,V+,+5V_ISO,,,"/>
-<approved hash="104,3,33.02,38.1,IC4P,V-,-5V_ISO,,,"/>
+<approved hash="104,3,33.02,53.34,IC4P,V+,+2V5_ISO,,,"/>
+<approved hash="104,3,33.02,38.1,IC4P,V-,-2V5_ISO,,,"/>
 <approved hash="104,2,60.96,139.7,IC5P,V+,+15V_ISO,,,"/>
 <approved hash="104,2,60.96,124.46,IC5P,V-,-15V_ISO,,,"/>
 <approved hash="104,2,63.5,139.7,IC5P,VL,+5V_ISO,,,"/>

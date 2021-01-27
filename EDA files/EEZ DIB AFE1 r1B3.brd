@@ -4217,7 +4217,7 @@ design rules under a new name.</description>
 <attribute name="NAME" x="65.6336" y="26.1747" size="1.016" layer="25" ratio="10"/>
 <attribute name="VALUE" x="65.0113" y="27.9273" size="1.016" layer="27" ratio="10"/>
 </element>
-<element name="IC1" library="EEZ_TI" package="PW(R-PDSO-G14)" value="OPA4202IPWR" x="95.5294" y="37.7571" smashed="yes" rot="R180">
+<element name="IC1" library="EEZ_TI" package="PW(R-PDSO-G14)" value="MCP6004T-I/ST" x="95.5294" y="37.7571" smashed="yes" rot="R180">
 <attribute name="NAME" x="94.488" y="40.4749" size="1.016" layer="25" ratio="10"/>
 <attribute name="VALUE" x="92.6719" y="37.4015" size="0.6096" layer="27" ratio="10"/>
 </element>
@@ -4467,7 +4467,7 @@ design rules under a new name.</description>
 <attribute name="NAME" x="64.9986" y="41.9862" size="0.8128" layer="25" ratio="10"/>
 <attribute name="VALUE" x="64.8589" y="40.386" size="1.016" layer="27" ratio="10"/>
 </element>
-<element name="IC4" library="EEZ_TI" package="PW(R-PDSO-G14)" value="OPA4202IPWR" x="85.3186" y="37.7698" smashed="yes" rot="R180">
+<element name="IC4" library="EEZ_TI" package="PW(R-PDSO-G14)" value="MCP6004T-I/ST" x="85.3186" y="37.7698" smashed="yes" rot="R180">
 <attribute name="NAME" x="84.1883" y="40.4368" size="1.016" layer="25" ratio="10"/>
 <attribute name="VALUE" x="82.296" y="37.4523" size="0.6096" layer="27" ratio="10"/>
 </element>
