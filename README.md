@@ -13,4 +13,4 @@ The [EEZ DIB](https://github.com/eez-open/modular-psu) 4-channel Hi-voltage/Hi-c
 
 ### r1B2 prototype
 
-![prototype](Images/AFE2_prototype_r1B2.JPG)
+![prototype](Images/AFE1_prototype_r1B2.JPG)
