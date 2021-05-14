@@ -1,7 +1,7 @@
 Screaming Circuits SMD component position file.
 Created by Centroid_ScreamingCircuits_smd.ulp 1.2.0.
 
-Centroid Data for pc board: "EEZ DIB AFE1 r1B5.brd" as of: 9.5.2021. 15:24
+Centroid Data for pc board: "EEZ DIB AFE1 r1B5.brd" as of: 14.5.2021. 18:12
 Measurements are in inches. Comma delimited
 Only surface mount components included
 
@@ -95,9 +95,9 @@ Q2,Top,2.337,1.219,180
 Q3,Top,2.337,1.510,180
 Q4,Top,2.876,1.510,0
 Q5,Top,3.348,2.213,0
-Q6,Top,3.482,2.212,0
-Q7,Top,4.971,0.746,270
-Q8,Top,4.971,0.905,270
+Q6,Top,3.482,2.213,0
+Q7,Top,4.971,0.758,270
+Q8,Top,4.971,0.918,270
 R1,Top,2.606,1.115,180
 R2,Top,3.159,1.383,90
 R3,Top,2.208,0.514,270
@@ -150,7 +150,7 @@ R49,Top,4.334,1.165,180
 R50,Top,4.333,1.252,0
 R51,Top,3.227,0.554,180
 R52,Top,4.030,0.600,270
-R53,Top,2.909,0.716,90
+R53,Top,2.914,0.716,90
 R54,Top,2.767,0.716,270
 S1,Top,2.126,0.185,0
 TVS1,Top,2.127,2.184,90
